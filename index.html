@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نصائح ومسابقات ممتعة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>مرحبا بك في صفحة النصائح والمسابقات!</h1>
+
+<!-- قسم النصائح -->
+<section class="tips-section">
+    <h2>نصيحة اليوم</h2>
+    <div id="tipMessage" class="message">اضغط الزر لرؤية نصيحة!</div>
+    <button id="newTip">احصل على نصيحة جديدة</button>
+</section>
+
+<hr>
+
+<!-- قسم المسابقة -->
+<section class="quiz-section">
+    <h2>مسابقة المعرفة</h2>
+    <p id="levelDisplay">المستوى: سهل</p>
+    <div id="questionContainer">
+        <div id="questionText" class="message"></div>
+        <div id="answerButtons" class="answers"></div>
+        <p id="quizFeedback"></p>
+        <p>النقاط: <span id="score">0</span></p>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <p>Created by Omar Mohamed Said, 11 years old, Sohag Governorate</p>
+</footer>
+
+<audio id="clickSound" src="click.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
